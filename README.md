@@ -6,3 +6,4 @@ Archivos de mesa
 Archivos de unity
 - Docs:
 Documentación (diagramas)
+# el archivo completo de unity se encuentra en el tag v1.0
