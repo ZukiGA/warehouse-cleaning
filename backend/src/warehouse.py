@@ -24,6 +24,9 @@ class Warehouse(Model):
     def step(self):
         self.schedule.step()
         self.steps += 1
+        # stop simulation
+        if self.steps == 500:
+            self.running = False
 
     def get_random_position(self, agent):
         random_position = (self.random.randrange(0, 9), self.random.randrange(0, 9))

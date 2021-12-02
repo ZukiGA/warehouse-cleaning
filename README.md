@@ -1,8 +1,8 @@
 # Actividad integradora
 
-- Backend
+- Backend:
 Archivos de mesa
-- Frontend
+- Frontend:
 Archivos de unity
-- Docs
+- Docs:
 Documentación (diagramas)
