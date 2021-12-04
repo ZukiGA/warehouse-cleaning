@@ -85,7 +85,8 @@ class Robot(Agent):
 
         stack = self.model.random.choice(self.model.stackedBoxes)
         stackedBox = self.model.grid.get_cell_list_contents([stack])[0]
-        while stackedBox.height == 5:
+        # print(self.model.stackedBoxes)
+        while stackedBox.height >= 4:
             stack = self.model.random.choice(self.model.stackedBoxes)
             stackedBox = self.model.grid.get_cell_list_contents([stack])[0]
 
